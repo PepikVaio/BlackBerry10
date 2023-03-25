@@ -1,0 +1,2 @@
+-Math.abs(property_Snake) = prevede cislo na zapornou hodnotu
+Math.abs(property_Snake) = prevede cislo na kladnou hodnotu

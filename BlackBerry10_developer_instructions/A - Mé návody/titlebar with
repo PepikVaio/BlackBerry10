@@ -1,0 +1,152 @@
+Page {
+
+titleBar: TitleBar {
+    kind: TitleBarKind.FreeForm
+    kindProperties: FreeFormTitleBarKindProperties {
+    
+    Container {
+        layout: StackLayout {orientation: LayoutOrientation.LeftToRight}
+        
+        leftPadding: 10
+        rightPadding: 10
+
+        Label {
+            text: "Hello title bar"
+            
+            textStyle {
+                color: Color.White
+            }
+
+            verticalAlignment: VerticalAlignment.Center
+
+            layoutProperties: StackLayoutProperties {spaceQuota: 1}
+        }
+
+        TextField {
+            verticalAlignment: VerticalAlignment.Center
+
+            layoutProperties: StackLayoutProperties {spaceQuota: 2}
+        }
+    }
+
+            expandableArea {
+                content: DateTimePicker {
+                horizontalAlignment: HorizontalAlignment.Center
+                expanded: true
+                }
+            }
+        }
+    }
+}
+
+
+
+
+Nebo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+import bb.cascades 1.4
+
+Page {
+    
+//    actionBarVisibility: ChromeVisibility.Visible
+//    actionBarAutoHideBehavior: ActionBarAutoHideBehavior.HideOnScroll
+    
+    titleBar: TitleBar {
+        id: facebook_TitleBar
+        visibility: ChromeVisibility.Overlay
+        
+        property alias facebook_Title: titleLabel.text
+
+        kind: TitleBarKind.FreeForm
+        kindProperties: FreeFormTitleBarKindProperties {
+            
+            Container {
+                leftPadding: 25
+                background: Color.create("#E6E6E6")
+                
+                layout: StackLayout {
+                    orientation: LayoutOrientation.LeftToRight
+                }
+                
+                Label {
+                    id: titleLabel
+                    verticalAlignment: VerticalAlignment.Center
+                    text: "Instagram"
+                    
+                    textStyle {
+                        color: Color.Black
+                        base: SystemDefaults.TextStyles.TitleText
+                        fontWeight: FontWeight.W500
+                    }
+                }
+            
+            }     
+}    
+    }  
+            
+
+
+
+    
+/*    titleBar: TitleBar {
+        title: qsTr("About application...") + Retranslate.onLanguageChanged
+        visibility: ChromeVisibility.Visible
+        
+        dismissAction: ActionItem {
+            title: qsTr("Close") + Retranslate.onLanguageChanged
+        }
+    }
+*/    
+    
+    
+    
+    
+    Container {
+        
+        ScrollView {
+            
+            WebView {
+                id: webview
+                url: "http://instagram.com"
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
+    
+/*    actions: [
+        
+        ActionItem {
+            title: "Home"
+            ActionBar.placement: ActionBarPlacement.OnBar
+            imageSource: "asset:///icons/home.png"
+            
+            onTriggered: {
+                webview.url = "http://google.com"
+            }
+        },
+        ActionItem {
+            title: "Add"
+            ActionBar.placement: ActionBarPlacement.Signature
+            imageSource: "asset:///icons/ic_add.png"
+
+            onTriggered: {
+                webview.url = "http://google.com"
+            }
+        },
+        ActionItem {
+            title: "Search"
+            ActionBar.placement: ActionBarPlacement.OnBar
+            imageSource: "asset:///icons/search.png"
+
+            onTriggered: {
+                webview.url = "http://google.com"
+            }
+        }
+    ]
+*/}
+

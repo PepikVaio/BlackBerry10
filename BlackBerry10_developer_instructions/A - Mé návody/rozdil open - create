@@ -1,0 +1,28 @@
+package_tracking_Pane.push(search_for_package.createObject())
+
+vs
+
+package_tracking_Pane.push(search_for_package)
+
+
+1. pokaždé stránku načítá znovu!!!
+2. připad stránku načte a potom ji drží, po opětovném zobrazení je stále načtená.
+
+
+1. nutné použít toto:
+
+                ComponentDefinition {
+            id: new_user
+            source: "new_user.qml"
+        }
+
+
+2. nutné použít toto:
+
+        Signin_Page {
+            id: signin_page
+        }
+
+
+
+

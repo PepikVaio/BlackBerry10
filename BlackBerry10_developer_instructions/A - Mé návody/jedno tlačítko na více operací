@@ -1,0 +1,48 @@
+import bb.cascades 1.4
+
+NavigationPane {
+    
+    Page {
+        
+        ScrollView {
+            id: youtube_scrollView
+            scrollViewProperties.scrollMode: ScrollMode.Both
+
+            WebView {
+                id: youtube_WebView
+                url: "http://tipyjakfotit.cz/"
+                
+                onUrlChanged: {
+                if (youtube_WebView.url == "http://tipyjakfotit.cz/") {
+                    zkouska.title = "Top"
+                } else {zkouska.title = "Back"}
+                }
+            }
+        }
+        
+        actions: [
+            
+            ActionItem {
+                id: zkouska
+                title: qsTr("Top") + Retranslate.onLanguageChanged
+                ActionBar.placement: ActionBarPlacement.OnBar
+                
+                onTriggered: {
+                    if (zkouska.title == "Top") {
+                    youtube_scrollView.scrollToPoint(0, 0)
+                    } else {youtube_WebView.goBack()}
+                }
+            },
+            ActionItem {
+                id: forward
+                title: qsTr("Forward") + Retranslate.onLanguageChanged
+                ActionBar.placement: ActionBarPlacement.OnBar
+                
+                onTriggered: {
+                    youtube_WebView.goForward()
+                }
+            }
+        ]
+    }
+}
+

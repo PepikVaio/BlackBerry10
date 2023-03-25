@@ -1,0 +1,19 @@
+Back button
+**************************************************
+
+Vložít na hlavní stránku a bude to platit na všechny stránky pod hlavní.
+
+    onCreationCompleted: {
+        youtube_Pane.backButtonsVisible = false
+    }
+
+Nebo použít toto: (pro viditelný ale neaktivní back button)
+
+    Page {
+        paneProperties: NavigationPaneProperties {
+            backButton: ActionItem {
+            enabled: false
+            }
+        }
+    }
+

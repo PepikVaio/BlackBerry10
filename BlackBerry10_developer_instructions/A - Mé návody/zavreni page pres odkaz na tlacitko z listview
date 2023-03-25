@@ -1,0 +1,158 @@
+import bb.cascades 1.4
+import custom.WebImageView 1.0
+//****************************
+
+//Sheet {
+  //  id: sheet
+
+    Page {
+    id: page
+    
+    // funkction for "../Pages/Page_Result.qml"
+    function function_GetInfo() {
+        arrayDataModel_XX.clear();
+
+        var xhr = new XMLHttpRequest();
+        var url = navigationPane.property_ResultUrl;
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+
+                    var response = JSON.parse(xhr.responseText);
+
+                    var lenght = response.result.images.length;
+                    for (var i = 0; i < lenght; i ++) {
+                        var results = response.result.images[i];
+
+                        arrayDataModel_XX.append({
+                                "image": results.images_path
+                            });
+                    }
+                }
+            }
+        };
+
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+    //***********************************************************************
+    
+    Container {
+
+        ListView {
+            id: aha
+            flickMode: FlickMode.SingleItem
+            scrollIndicatorMode: ScrollIndicatorMode.None
+
+            // property alias alias_close: sheet
+            property alias alias_button: button
+
+            layout: StackListLayout {
+                orientation: LayoutOrientation.LeftToRight
+            }
+
+            dataModel: ArrayDataModel {
+                id: arrayDataModel_XX
+            }
+
+            listItemComponents: [
+
+                ListItemComponent {
+
+                    Container {
+                        id: main
+
+                        layout: StackLayout {
+                            orientation: LayoutOrientation.LeftToRight
+                        }
+
+                        Container {
+                            //preferredWidth: 1440
+                            //preferredHeight: preferredWidth
+                            //preferredHeight: ui.sdu(30)
+
+                            layout: DockLayout {
+                            }
+
+                            WebImageView {
+                                preferredHeight: 1440 
+                                preferredWidth: 1440
+                                id: webImageView_2
+                                url: ListItemData.image
+                                scalingMethod: ScalingMethod.AspectFit
+
+                            }
+                            
+                            /*WebView {
+                                id: webImageView_2
+                                url: ListItemData.image
+                            }*/
+
+                            gestureHandlers: TapHandler {
+
+                                onTapped: {
+                                    /*if (main.ListItem.view.zkosuka == ChromeVisibility.Visible) {
+                                        main.ListItem.view.zkosuka = ChromeVisibility.Hidden
+                                    } else {
+                                        main.ListItem.view.zkosuka = ChromeVisibility.Visible
+                                    }*/
+                                    
+                                    // zkouska signalu pro zavreni listu :) poklepanim!!!
+                                    //main.ListItem.signal_From_Page()
+                                    //sheet.close()
+                                    //main.ListItem.sheet.close()
+                                        //main.ListItem.view.signal_From_Page()
+                                        
+                                        //main.ListItem.view.sheet.close()
+                                    //main.ListItem.view.alias_navpane.pop(componentDefinition_Page_Zkouska);
+                                    //main.ListItem.view.alias_page.pop()
+
+                                    main.ListItem.view.alias_button.clicked()
+                                    
+                                    
+
+                                }
+                                
+                                
+                                /*onTapped: {
+                                    if (page.actionBarVisibility == ChromeVisibility.Visible) {
+                                        page.actionBarVisibility = ChromeVisibility.Hidden
+                                    } else {
+                                        page.actionBarVisibility = ChromeVisibility.Visible
+                                    }
+                                }*/
+                            }
+
+                        }
+
+                        Container {
+
+                            Container {
+                                preferredWidth: ui.sdu(1.5)
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    
+    //zkosuak
+    attachedObjects: [
+        
+        Button {
+            id: button
+            
+            onClicked: {
+                navigationPane.pop()
+            }
+        }
+    ]
+
+    onCreationCompleted: {
+        function_GetInfo()
+    }
+}
+//}
+

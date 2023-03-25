@@ -1,0 +1,92 @@
+http://doc.qt.io/archives/qt-4.8/qdeclarativebasictypes.html
+
+
+action
+	
+
+Type has all the properties of QAction
+
+bool
+	
+
+A boolean is a binary true/false value
+
+color
+	
+
+A color is a standard color name in quotes
+
+date
+	
+
+A date is specified as "YYYY-MM-DD"
+
+double
+	
+
+A double number has a decimal point and is stored in double precision
+
+enumeration
+	
+
+An enumeration type consists of a set of named values
+
+font
+	
+
+A font type has the properties of a QFont
+
+int
+	
+
+An integer is a whole number, e.g. 0, 10, or -20
+
+list
+	
+
+A list of objects
+
+point
+	
+
+A point type has x and y attributes
+
+real
+	
+
+A real number has a decimal point, e.g. 1.2 or -29.8
+
+rect
+	
+
+A rect type has x, y, width and height attributes
+
+size
+	
+
+A size type has width and height attributes
+
+string
+	
+
+A string is a free form text in quotes, e.g. "Hello world!"
+
+time
+	
+
+A time is specified as "hh:mm:ss"
+
+url
+	
+
+A URL is a resource locator, like a file name
+
+variant
+	
+
+A variant type is a generic property type
+
+vector3d
+	
+
+A vector3d type has x, y, and z attributes

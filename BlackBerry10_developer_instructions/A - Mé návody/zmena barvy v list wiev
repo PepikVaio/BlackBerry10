@@ -1,0 +1,108 @@
+import bb.cascades 1.2
+
+Page {
+    onCreationCompleted: {
+        fillGroupDataModel()
+    }
+    Container {
+        ListView {
+            id: contactListView
+            dataModel: contactsData
+
+            listItemComponents: [
+                ListItemComponent {
+                    id: homeListComponent
+                    type: "item"
+                    Container {
+                        horizontalAlignment: HorizontalAlignment.Fill
+                        verticalAlignment: VerticalAlignment.Fill
+                        background: ListItemData.color_default_bg
+                        Container {
+                            horizontalAlignment: HorizontalAlignment.Fill
+                            verticalAlignment: VerticalAlignment.Center
+                            topPadding: 10
+                            bottomPadding: 10
+                            leftPadding: 10
+                            rightPadding: 10
+                            layout: StackLayout {
+                                orientation: LayoutOrientation.LeftToRight
+                            }
+                            Label {
+                                id: mLableColorId
+                                text: ListItemData.color_id
+                                verticalAlignment: VerticalAlignment.Center
+                            }
+                            Label {
+                                id: mLableColorName
+                                text: ListItemData.color_name
+                                verticalAlignment: VerticalAlignment.Center
+                            }
+                        }
+                        Divider {
+                            horizontalAlignment: HorizontalAlignment.Fill
+                        }
+
+                    }
+                }
+
+            ]
+            onTriggered: {
+                var selectedItem = dataModel.data(indexPath);
+                var selectedColor = selectedItem.color_code
+                var count = contactListView.dataModel.childCount(0)
+                for (var i = 0; i < count; i ++) {
+                    var tempImdexPath = [ i ]
+                    var selectedItem = dataModel.data(tempImdexPath);
+                    selectedItem.color_default_bg = selectedColor
+                    contactListView.dataModel.updateItem(tempImdexPath, selectedItem);
+                }
+            }
+
+        }
+
+    }
+    function fillGroupDataModel() {
+        contactsData.clear()
+        contactsData.insert({
+                "color_id": 1,
+                "color_code": Color.Blue,
+                "color_name": "Blue",
+                "color_default_bg": Color.White
+            });
+        contactsData.insert({
+                "color_id": 2,
+                "color_code": Color.Green,
+                "color_name": "Grean",
+                "color_default_bg": Color.White
+            });
+
+        contactsData.insert({
+                "color_id": 3,
+                "color_code": Color.Red,
+                "color_name": "Red",
+                "color_default_bg": Color.White
+            });
+        contactsData.insert({
+                "color_id": 4,
+                "color_code": Color.Gray,
+                "color_name": "Gray",
+                "color_default_bg": Color.White
+            });
+        contactsData.insert({
+                "color_id": 5,
+                "color_code": Color.Cyan,
+                "color_name": "Cyan",
+                "color_default_bg": Color.White
+            });
+    }
+    attachedObjects: [
+        GroupDataModel {
+            id: contactsData
+            sortingKeys: [ "color_id" ]
+            sortedAscending: true
+            grouping: ItemGrouping.None
+
+        }
+
+    ]
+}

@@ -1,0 +1,156 @@
+http://devblog.blackberry.com/2013/08/improve-your-app-startup-time-using-dynamic-loading-of-tabs-now-declaratively/
+
+    Tab {
+//        enabled: false
+
+        id: library_Tab
+        title: qsTr("Library") + Retranslate.onLanguageChanged
+        imageSource: "asset:///icons/library.png"
+        delegateActivationPolicy: TabDelegateActivationPolicy.Default
+        Library_Page {
+        }
+
+        delegate: Delegate {
+            source: "asset:///Library/Library_Page.qml"
+        }
+    }
+
+
+None = neaktivní - nepovolí načíst tab
+Default = načítá pokažde, když kliknu na určitý tab
+ActivatedWhileSelected = default
+ActivateWhenSelected = načte pouze po prvním kliknutí na tab
+ActivateImmediately =  načte vsechny taby najednou (delsi spousteni aplikace)
+
+Delegate Pages or Sheets
+************************
+
+    main.qml
+
+import bb.cascades 1.4
+
+NavigationPane {
+
+    Page {
+        Container {
+            Button {
+                text: "Open sheet"
+                onClicked: {
+                    sheet.open();
+                }
+            }
+        }
+
+    attachedObjects: [
+        SheetX {
+            id: sheet
+        }
+    ]
+}
+}
+
+    Sheet.qml
+
+import bb.cascades 1.4
+
+Sheet {
+    id: sheet
+    content: sheetPageDelegate.object
+    onOpenedChanged: {
+        if (opened)
+            sheetPageDelegate.active = true;
+    }
+    onClosed: {
+        sheetPageDelegate.active = false;
+    }
+    attachedObjects: [
+        Delegate {
+            id: sheetPageDelegate
+            Page {
+                Container {
+                    WebView {
+                        url: "https://instagram.com"
+                    }
+                    Button {
+                        text: "Close"
+                        onClicked: {
+                            sheet.close();
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+
+
+Když nechci používat delegate, mohu použít i toto:
+**************************************************
+
+    main.qml
+
+import bb.cascades 1.4
+
+NavigationPane {
+    id: nav
+
+    Page {
+
+        Container {
+
+            Label {
+                text: qsTr("Hello World") + Retranslate.onLocaleOrLanguageChanged
+                textStyle.base: SystemDefaults.TextStyles.BigText
+            }
+        }
+
+        actions: [
+            ActionItem {
+                ActionBar.placement: ActionBarPlacement.Signature
+                onTriggered: {
+                    shet2.open()
+                }
+            }
+        ]
+    }
+
+    attachedObjects: [
+
+        Shet2 {
+            id: shet2
+        }
+    ]
+}
+
+    Sheet.qml
+
+import bb.cascades 1.4
+
+Sheet {
+    id: shet
+
+    Page {
+        id: page
+        titleBar: TitleBar {
+            title: "Page"
+
+            dismissAction: ActionItem {
+                onTriggered: {
+                    shet.close()
+                }
+            }
+        }
+        WebView {
+            id: web
+        }
+    }
+
+    onOpened: {
+        if (web.url != "https://www.instagram.com/accounts/login/?source=mobile_nav_menu") {
+            web.url = "https://www.instagram.com/accounts/login/?source=mobile_nav_menu"
+        }
+    }
+    onClosed: {
+        web.url = "about:blank"
+    }
+}

@@ -1,0 +1,72 @@
+Page {
+ListView {
+id: listview
+dataModel: XmlDataModel {
+id: people
+source: "people.xml"
+}
+listItemComponents:[
+ListItemComponent {
+type: "category"
+Header {
+title: ListItemData.value
+}
+}
+] // listItemComponents
+} // ListView
+} // Page
+
+
+
+Page {
+ListView {
+id: listview
+dataModel: XmlDataModel {
+id: people
+source: "people.xml"
+}
+listItemComponents:[
+ListItemComponent {
+type: "category"
+Container{
+id: container
+Label {
+id: myLabel
+text: container.ListItem.data.value // equivalent to ListItemData.value
+}
+}
+}
+] // ListItemComponents
+} // ListView
+}
+ 
+ 
+ 
+ 
+ Page {
+ListView {
+id: listview
+dataModel: XmlDataModel {
+id: people
+source: "people.xml"
+}
+}
+}
+
+
+
+<people>
+<category value="Actors">
+<person name="John Wayne"/>
+<person name="Kirk Douglas"/>
+<person name="Clint Eastwood"/>
+<person name="Spencer Tracy"/>
+<person name="Lee Van Cleef"/>
+</category>
+<category value="US Presidents">
+<person name="John F. Kennedy"/>
+<person name="Bill Clinton"/>
+<person name="George Bush"/>
+<person name="Barack Obama"/>
+</category>
+</people>

@@ -1,0 +1,113 @@
+import bb.cascades 1.2
+
+Page {
+    Container {
+        ListView {
+            id: tagList
+            dataModel: tagModel
+            
+            layout: FlowListLayout {
+                headerMode: ListHeaderMode.None
+            }
+            preferredHeight: 200
+            
+            function itemType(data, indexPath) {
+                return (data.add == 1 ? 'add' : '');
+            }
+            function mload(text) {
+                myList.load(text);
+            }
+            function showDropDown() {
+                myList.visible = true;
+            }
+            listItemComponents: [
+                ListItemComponent {
+                    type: "add"
+                    
+                    Container {
+                        id: myAdd
+                        TextField {
+                            id: searchBox
+                            preferredWidth: 300
+                            onTextChanging: {
+                                myAdd.ListItem.view.mload(searchBox.text);
+                            }
+                            onFocusedChanged: {
+                                if (focused)
+                                    myAdd.ListItem.view.showDropDown();
+                            }
+                        }
+                    }
+                },
+                ListItemComponent {
+                    Container {
+                        background: Color.create("#660000FF")
+                        leftPadding: 10
+                        rightPadding: 10
+                        topPadding: 10
+                        bottomPadding: 10
+                        leftMargin: 10
+                        bottomMargin: 10
+                        Label {
+                            id: country
+                            textStyle.fontSize: FontSize.Medium
+                            text: ListItemData.country
+                        }
+                    }
+                }
+            ]
+            
+            onTriggered: {
+                //todo: make it possible to remove a tag
+                console.log("item touched.. yay!")
+            }
+            
+            attachedObjects: [
+                ArrayDataModel {
+                    id: tagModel
+                }
+            ]
+        }
+        
+        ListView {
+            id: myList
+            visible: false
+            dataModel: mdataModel
+            preferredHeight: 400
+            attachedObjects: [
+                ArrayDataModel {
+                    id: mdataModel
+                }
+            ]
+            
+            onTriggered: {
+                var selected = dataModel.data(indexPath);
+                var tmp = new Object();
+                tmp.country = selected;
+                tagModel.insert(tagModel.size() - 1, tmp);
+                console.log("removing: " + (tagModel.size() - 1 ) + " at size " + tagModel.size())
+                visible = false;
+            }
+            
+            function load(text) {
+                var cities = [ "Slovenia", "Italy", "Slovakia", "Croatia", "Sweden", "Norway", "Poland", "Finland", "Spain",
+                    "Indonesia", "Ireland" ]
+                var tmp = [];
+                for (var i = 0; i < cities.length; i ++) 
+                if (cities[i].toLowerCase().indexOf(text.toLowerCase()) >= 0)
+                    tmp.push(cities[i]);
+                mdataModel.clear();
+                mdataModel.insert(0, tmp);
+            }
+            function insertEdit() {
+                var edit = new Object();
+                edit["add"] = "1";
+                tagModel.insert(tagModel.size(), edit);
+            }
+        }
+    }
+    onCreationCompleted: {
+        myList.load("");
+        myList.insertEdit(); // insert item with TextField
+    }
+}

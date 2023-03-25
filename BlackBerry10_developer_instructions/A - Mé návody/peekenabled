@@ -1,0 +1,11 @@
+    Peekenabled
+**************************************************
+
+peekEnabled: false
+    nejde táhnout list doprava a podívat se co je pod ním
+    
+peekEnabled: true
+    jde posunout list doprava :)
+    
+    
+Nedává se do "page" ale přímo do "sheet, navigationpage, ..."

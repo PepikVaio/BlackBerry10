@@ -1,0 +1,92 @@
+import bb.cascades 1.2
+import bb.system 1.2
+//import "../MyApps"
+
+Sheet {
+    id: aboutSheet
+    
+    onOpened: { Application.setMenuEnabled(false); myApps.autoScroll = true; }
+    onClosed: { Application.setMenuEnabled(true); myApps.autoScroll = false; }
+    
+    Page {
+        titleBar: TitleBar {
+            title: qsTr("About") + Retranslate.onLanguageChanged
+            acceptAction: ActionItem {
+                title: qsTr("Ok") + Retranslate.onLanguageChanged
+                onTriggered: {
+                    aboutSheet.close()
+                }
+            }
+        }
+        
+        ScrollView {
+            Container {
+                id: mainContainer
+                
+                layout: DockLayout {}
+                horizontalAlignment: HorizontalAlignment.Fill
+                verticalAlignment: VerticalAlignment.Fill
+                background: mainPage.blockBackgroundColor
+                leftPadding: _ui.du(3)
+                rightPadding: leftPadding
+                topPadding: _ui.du(1)
+                bottomPadding: topPadding
+                Container {
+                    horizontalAlignment: HorizontalAlignment.Center
+                    verticalAlignment: VerticalAlignment.Center
+                    Container {
+                        horizontalAlignment: HorizontalAlignment.Center
+                        Container {
+                            layout: StackLayout { orientation: LayoutOrientation.LeftToRight }
+                            horizontalAlignment: HorizontalAlignment.Center
+                            ImageView {
+                                imageSource: "asset:///images/appIcon96.png"
+                                scalingMethod: ScalingMethod.AspectFill
+                                verticalAlignment: VerticalAlignment.Center
+                            }
+                            Label {
+                                id: appNameLabel
+                                verticalAlignment: VerticalAlignment.Center
+                                text: Application.applicationName + " " + Application.applicationVersion
+                                textStyle.base: SystemDefaults.TextStyles.BigText
+                            }
+                        }
+                        Label {
+                            property string emailUri: "mailto:roger@rogerleblanc.net?subject=" + appNameLabel.text + " support"
+                            horizontalAlignment: HorizontalAlignment.Center
+                            text: "<html><a href=\"" + emailUri + "\">" + qsTr("by CellNinja") + Retranslate.onLanguageChanged + "</a></html>"
+                            multiline: true
+                            textStyle.base: SystemDefaults.TextStyles.TitleText
+                        }
+                    }
+                    MyApps { id: myApps; topPadding: _ui.du(5) }
+                    Container {
+                        topPadding: _ui.du(3)
+                        horizontalAlignment: HorizontalAlignment.Center
+                        Header {
+                            title: qsTr("Social") + Retranslate.onLocaleOrLanguageChanged
+                        }
+                        Label {}
+                        Button {
+                            text: qsTr("CellNinja BBM Channel") + Retranslate.onLanguageChanged
+                            imageSource: "asset:///images/ic_bbmchannel.png"
+                            horizontalAlignment: HorizontalAlignment.Center
+                            onClicked: { 
+                                invokeChannel.query.invokeTargetId = "sys.bbm.channels.card.previewer"
+                                invokeChannel.query.invokeActionId = "bb.action.OPENBBMCHANNEL"
+                                invokeChannel.query.uri = "bbmc:C004E866D"
+                                invokeChannel.query.updateQuery()
+                            }
+                            attachedObjects: [
+                                Invocation {
+                                    id: invokeChannel
+                                    onArmed: { trigger(query.invokeActionId) }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

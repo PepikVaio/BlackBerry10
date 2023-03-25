@@ -1,0 +1,13 @@
+Delete - ActionItem
+**************************************************
+
+    DeleteActionItem {
+        id: deletePositionAction
+        
+        title: qsTr("Delete Position") + Retranslate.onLanguageChanged
+        ActionBar.placement: ActionBarPlacement.InOverflow
+        
+        onTriggered: {
+        // delete the position
+        }
+    }

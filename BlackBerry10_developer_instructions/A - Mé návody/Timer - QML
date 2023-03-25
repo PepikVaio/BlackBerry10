@@ -1,0 +1,58 @@
+https://stackoverflow.com/questions/28507619/how-to-create-delay-function-in-qml
+
+import bb.cascades 1.4
+import QtQuick 1.0
+
+Page {
+
+    Container{
+
+        Button {
+
+            onClicked {
+                timer.setTimeout(function() {
+                        console.log("triggered")
+                    }, 1000)
+                //nebo hezčí :)
+                timer.setTimeout(1000, function() {
+                        label.text = "no run"
+                })
+
+            }
+        }
+    }
+
+    attachedObjectives: [
+
+        Timer {
+            id: timer
+            function setTimeout(cb, delayTime) {
+                timer.interval = delayTime;
+                timer.repeat = false;
+                timer.triggered.connect(cb);
+                timer.triggered.connect(function release () {
+                        timer.triggered.disconnect(cb); // This is important
+                        timer.triggered.disconnect(release); // This is important as well
+                });
+            timer.start();
+            }
+        }
+    ]
+}
+
+Nebo jednoduše:
+
+import bb.cascades 1.4
+import QtQuick 1.0
+
+Page {
+
+    attachObjests: [
+        Timer {
+            id: zkouskaTimer
+            interval: 9000; running: true; repeat: false
+            onTriggered: label.text = "no run"
+        }
+    }
+}
+

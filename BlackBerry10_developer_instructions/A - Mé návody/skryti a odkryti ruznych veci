@@ -1,0 +1,10 @@
+            Button {
+                text: "zmena"
+                onClicked: {
+                    titleBar.visibility = ChromeVisibility.Visible
+                    actionBarVisibility = ChromeVisibility.Visible
+                    scroll.scrollViewProperties.scrollMode = ScrollMode.None
+
+
+                }
+            }

@@ -1,0 +1,64 @@
+        ScrollView {
+
+            Container {
+//                * layout je aktivní pouze na jednotlivé containery, ne na objekty v containeru!
+//                layout: AbsoluteLayout {}
+//                layout: DockLayout {}
+//                layout: GrindLayout {}
+//                layout: StackLayout {}
+
+//                * pro AbsoluteLayout! Jednotlivé objekty mohou být kdekoliv.
+//                layoutProperties: AbsoluteLayoutProperties {
+//                    positionX: 25
+//                    positionY: 25
+//                }
+
+//                * pro DockLayout! Jednotlivé objekty mohou být také  kdekoliv ale přesně podle zarovnání.
+//                verticalAlignment: VerticalAlignment.Center
+//                horizontalAlignment: HorizontalAlignment.Center
+
+//                * pro GrindLayout! Jednotlivé objekty jsou vedle sebe.
+//                layout: GridLayout {columnCount: 2}
+
+//                * pro StackLayout! Jednotlivé objekty jsou pod sebou.
+//                layoutProperties: StackLayoutProperties {}
+//                horizontalAlignment: HorizontalAlignment.Center
+
+
+                Container {
+//                * layout je aktivní na jednotlivé objekty v containeru!
+//                    layout: AbsoluteLayout {}
+//                    layout: DockLayout {}
+//                    layout: StackLayout {}
+//                    layout: AbsoluteLayout {}
+
+//                    preferredWidth: preferredWidth = 1440 
+//                    preferredHeight: preferredHeight = 1440
+
+                    ImageView {
+                        imageSource: "asset:///images/youtube_mini.png"
+
+//                        verticalAlignment: VerticalAlignment.Center
+//                        horizontalAlignment: HorizontalAlignment.Center
+                    }
+                }
+
+                Container {
+//                * layout je aktivní na jednotlivé objekty v containeru!
+//                    layout: AbsoluteLayout {}
+//                    layout: DockLayout {}
+//                    layout: StackLayout {}
+//                    layout: AbsoluteLayout {}
+
+//                    preferredWidth: preferredWidth = 1440 
+//                    preferredHeight: preferredHeight = 1440
+
+                    ImageView {
+                        imageSource: "asset:///images/icon.png"
+
+//                        verticalAlignment: VerticalAlignment.Center
+//                        horizontalAlignment: HorizontalAlignment.Center
+                    }
+                }
+            }
+        }

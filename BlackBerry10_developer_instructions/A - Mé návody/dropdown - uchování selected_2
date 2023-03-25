@@ -1,0 +1,44 @@
+import bb.cascades 1.4
+
+Page {
+    id: settings_Page
+    
+    property bool theme_style: _app.getValueFor(theme_style_DropDown.objectName, true)
+    
+    Container {
+        
+        DropDown {
+            id: theme_style_DropDown
+            title: "Theme style"
+            objectName: "theme_style"
+            
+            Option {
+                id: dropDown_Bright
+                text: qsTr("Bright") + Retranslate.onLocaleOrLanguageChanged
+                value: "bright"
+            }
+            Option {
+                id: dropDown_Dark
+                text: qsTr("Dark") + Retranslate.onLocaleOrLanguageChanged
+                value: "dark"
+            }
+            
+            onSelectedValueChanged: {
+                if (selectedValue == "bright") {Application.themeSupport.setVisualStyle(VisualStyle.Bright)
+                    _app.saveValueFor(theme_style_DropDown.objectName, settings_Page.theme_style = true)
+                } else if (selectedValue == "dark") {Application.themeSupport.setVisualStyle(VisualStyle.Dark)
+                    _app.saveValueFor(theme_style_DropDown.objectName, settings_Page.theme_style = false)
+                }
+            }
+        }
+    }
+    
+    onCreationCompleted: {
+        if (settings_Page.theme_style == true) {
+            theme_style_DropDown.selectedOption = dropDown_Bright
+        } else if (settings_Page.theme_style == false) {
+            theme_style_DropDown.selectedOption = dropDown_Dark
+        }
+    }
+}
+

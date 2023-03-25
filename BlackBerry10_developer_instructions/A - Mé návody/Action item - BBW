@@ -1,0 +1,24 @@
+Action item BBW
+*************************
+
+    actions: [
+        ActionItem {
+            title: "Ostatní aplikace"
+            imageSource: "asset:///icons/light/other_app.png"
+            
+            onTriggered: {
+                invoke.trigger("bb.action.OPEN")
+            }
+        }
+    ]
+    
+    attachedObjects: [
+        Invocation {
+            id: invoke
+            query: InvokeQuery {
+                invokeTargetId: "sys.appworld"
+                uri: "appworld://vendor/98946"
+            }
+        }
+    ]
+

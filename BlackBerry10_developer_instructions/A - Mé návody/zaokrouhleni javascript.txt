@@ -1,0 +1,6 @@
+oFixed vracia string, takže nickJartin-ov spôsob je určite leší, rýchlejší.
+
+Pridám ešte:
+
+zaokrúhlenie nahor: Math.ceil()
+zaokrúhlenie nadol: Math.floor()

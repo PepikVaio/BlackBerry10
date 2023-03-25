@@ -1,0 +1,70 @@
+import bb.cascades 1.3
+
+Page {
+    id: page
+
+    property string property_AccessPermission: "False"
+
+    property string propertyImei: "351852064244188"
+
+
+    Container {
+
+        Label {
+            text: myCppObject.value
+        }
+
+        Button {
+            id: myButton
+            text: "Increase the value"
+
+            onClicked: {
+                //myCppObject.value = 30;
+            }
+        }
+
+        TextArea {
+            id: textArea
+        }
+    }
+    
+    onCreationCompleted: {
+        function_GetImei()
+    }
+
+    function function_GetImei() {
+        var url = "http://my-json-server.typicode.com/pepikvaio/try/db"
+        var xhr = new XMLHttpRequest();
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+
+                    var jsonData = JSON.parse(xhr.responseText);
+                    var imeiNumber = jsonData.imei_numbers
+                    var result = imeiNumber.indexOf(page.propertyImei);
+
+                    textArea.text = xhr.responseText
+                    
+                    //myCppObject.value = result
+                    
+
+
+                    if (result !== -1) {
+                        console.log("access allowed")
+                    } else {
+
+                        try {
+                            console.log("access denied")
+                        } catch (err) {
+                            Application.quit()
+                        }
+                    }
+                }
+            }
+        };
+
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+}

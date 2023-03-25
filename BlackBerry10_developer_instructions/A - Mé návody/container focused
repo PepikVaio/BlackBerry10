@@ -1,0 +1,16 @@
+            Container {
+                rightPadding: ui.sdu(1)
+
+
+
+
+                navigation.focusPolicy: NavigationFocusPolicy.Focusable
+                navigation.defaultHighlightEnabled: false
+                background: navigation.wantsHighlight ? ui.palette.primary : ui.palette.background
+
+
+
+
+nebo zruseni focused
+                            //navigation.focusPolicy: NavigationFocusPolicy.NotFocusable
+

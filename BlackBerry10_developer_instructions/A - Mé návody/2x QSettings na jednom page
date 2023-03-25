@@ -1,0 +1,71 @@
+import bb.cascades 1.4
+
+Page {
+    id: settings_Page
+    
+    property bool color_1: _app.getValueFor(red_Button.objectName, true)
+    property bool color_2: _app.getValueFor(blue_Button.objectName, true)
+    
+    Container {
+        id: main_container
+        
+        Container {
+            id: container_1
+            
+            Button {
+                id: red_Button
+                text: "Red color"
+                objectName: "color_1"
+                
+                onClicked: {
+                    container_1.background = Color.Red
+                    _app.saveValueFor(red_Button.objectName, settings_Page.color_1 = true)
+                }
+            }
+            Button {
+                id: green_Button
+                text: "Green color"
+                
+                onClicked: {
+                    container_1.background = Color.Green
+                    _app.saveValueFor(red_Button.objectName, settings_Page.color_1 = false)
+                }
+            }
+        }
+        
+        Container {
+            id: container_2
+            
+            Button {
+                id: blue_Button
+                text: "Blue color"
+                objectName: "color_2"
+                
+                onClicked: {
+                    container_2.background = Color.Blue
+                    _app.saveValueFor(blue_Button.objectName, settings_Page.color_2 = true)
+                }
+            }
+            Button {
+                id: black_Button2
+                text: "Black color"
+                
+                onClicked: {
+                    container_2.background = Color.Black
+                    _app.saveValueFor(blue_Button.objectName, settings_Page.color_2 = false)
+                }
+            }
+        }
+    }
+    
+    onCreationCompleted: {
+        if (settings_Page.color_1 == true) {
+            container_1.background = Color.Red
+        } else {container_1.background = Color.Green}
+        
+        if (settings_Page.color_2 == true) {
+            container_2.background = Color.Blue
+        } else {container_2.background = Color.Black}
+    }
+}
+

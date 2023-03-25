@@ -1,0 +1,14 @@
+            Label {
+                id: tea_Label_for_tea_Slider
+                //text: tea_Slider
+            }
+            
+            Slider {
+                id: tea_Slider
+                fromValue: 0
+                toValue: 100
+                
+                onImmediateValueChanged: {
+                    tea_Label_for_tea_Slider.text = "Čas přípravy caje: " + immediateValue.toFixed(1) + " %"
+                }
+            }

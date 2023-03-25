@@ -1,0 +1,85 @@
+import bb.cascades 1.4
+
+Page {
+    id: settings_Page
+
+    property string theme_style1: _app.getValueFor(theme_style_DropDown1.objectName, "bright")
+    property string theme_style2: _app.getValueFor(theme_style_DropDown2.objectName, "A")
+
+    Container {
+        id: container_style
+        
+        Container {
+            
+        DropDown {
+            id: theme_style_DropDown1
+            title: "Theme style1"
+            objectName: "theme_style1"
+
+            Option {
+                id: dropDown_Bright
+                text: "Bright (default)"
+                value: "bright"
+            }
+            Option {
+                id: dropDown_Dark
+                text: "Dark"
+                value: "dark"
+            }
+
+            onSelectedValueChanged: {
+                if (selectedValue == "bright") {
+                    Application.themeSupport.setVisualStyle(VisualStyle.Bright)
+                    _app.saveValueFor(theme_style_DropDown1.objectName, settings_Page.theme_style1 = "bright")
+                } else if (selectedValue == "dark") {
+                    Application.themeSupport.setVisualStyle(VisualStyle.Dark)
+                    _app.saveValueFor(theme_style_DropDown1.objectName, settings_Page.theme_style1 = "dark")
+                }
+            }
+        }
+    }
+        
+        Container {
+            
+        DropDown {
+            id: theme_style_DropDown2
+            title: "Theme style2"
+            objectName: "theme_style2"
+            
+            Option {
+                id: dropDown_Red
+                text: "Red (default)"
+                value: "A"
+            }
+            Option {
+                id: dropDown_Blue
+                text: "Blue"
+                value: "B"
+            }
+            
+            onSelectedValueChanged: {
+                if (selectedValue == "A") {
+                    _app.saveValueFor(theme_style_DropDown2.objectName, settings_Page.theme_style2 = "A")
+                } else if (selectedValue == "B") {
+                    _app.saveValueFor(theme_style_DropDown2.objectName, settings_Page.theme_style2 = "B")
+                }
+            }
+        }
+    }
+}
+    onCreationCompleted: {
+
+        if (settings_Page.theme_style1 == "bright") {
+            theme_style_DropDown1.selectedOption = dropDown_Bright
+        } else if (settings_Page.theme_style1 == "dark") {
+            theme_style_DropDown1.selectedOption = dropDown_Dark
+        }
+        
+        if (settings_Page.theme_style2 == "A") {
+            theme_style_DropDown2.selectedOption = dropDown_Red
+        } else if (settings_Page.theme_style2 == "B") {
+            theme_style_DropDown2.selectedOption = dropDown_Blue
+        }
+
+    }
+}

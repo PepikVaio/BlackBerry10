@@ -1,0 +1,9 @@
+Asi musí být i -> import bb.system1.2
+
+        SystemToast {
+            id: logout_dialog
+            body: qsTr("Reload page please") + Retranslate.onLanguageChanged 
+            onFinished: {
+//                Application.quit();
+            }
+

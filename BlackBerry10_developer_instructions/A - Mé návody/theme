@@ -1,0 +1,19 @@
+Page {
+    id: page
+    
+    Container {
+        Button {
+            text: "Switch theme"
+            
+            // Checks the current theme and then flips the value
+            onClicked: {
+                if (Application.themeSupport.theme.colorTheme.style == VisualStyle.Bright) {
+                    Application.themeSupport.setVisualStyle(VisualStyle.Dark);
+                }       
+                else {
+                    Application.themeSupport.setVisualStyle(VisualStyle.Bright);
+                }
+            }
+        }
+    }
+}

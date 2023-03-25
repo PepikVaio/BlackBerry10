@@ -1,0 +1,40 @@
+import bb.cascades 1.4
+
+NavigationPane {
+    
+    Page {
+        
+        ScrollView {
+            id: youtube_scrollView
+            scrollViewProperties.scrollMode: ScrollMode.Both
+
+            WebView {
+                id: youtube_WebView
+                url: "http://tipyjakfotit.cz/"
+            }
+        }
+        
+        actions: [
+            
+            ActionItem {
+                title: qsTr("Back") + Retranslate.onLanguageChanged
+                ActionBar.placement: ActionBarPlacement.OnBar
+                enabled: youtube_WebView.canGoBack
+                
+                onTriggered: {
+                    youtube_WebView.goBack()
+                }
+            },
+            ActionItem {
+                title: qsTr("Forward") + Retranslate.onLanguageChanged
+                ActionBar.placement: ActionBarPlacement.OnBar
+                enabled: youtube_WebView.canGoForward
+                
+                onTriggered: {
+                    youtube_WebView.goForward()
+                }
+            }
+        ]
+    }
+}
+

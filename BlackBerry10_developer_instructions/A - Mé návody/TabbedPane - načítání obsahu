@@ -1,0 +1,80 @@
+https://developer.blackberry.com/native/documentation/ui/navigation/multiple_screens_tabs.html
+**********************************************************************************************
+
+import bb.cascades 1.4
+
+TabbedPane {
+    Tab {
+        id: tab1
+        delegate: Delegate {
+            id: tabDelegate1
+            source: "page1.qml"
+        }
+        delegateActivationPolicy: TabDelegateActivationPolicy.None
+    }
+    
+    Tab {
+        id: tab2
+        delegate: Delegate {
+            id: tabDelegate2
+            source: "page2.qml"
+        }
+        delegateActivationPolicy: TabDelegateActivationPolicy.None
+    }
+    
+    onActiveTabChanged: {
+        if (activeTab == tab1) {
+            tabDelegate1.active = true;
+            tabDelegate2.active = true;
+        }
+        if (activeTab == tab2) {
+            tabDelegate1.active = true;
+            tabDelegate2.active = true;
+        }
+    }
+    
+    onCreationCompleted: {
+        tabDelegate1.active = true;
+    }
+}
+
+
+Asi se to dá použít i na Page :)
+********************************
+
+Page { 
+    attachedObjects: [
+        Delegate {
+            id: sheetPageDelegate
+            Page {
+                Container {
+                    Button { 
+                        text: "Close"
+                        onClicked: {
+                            sheet.close();
+                        }
+                    }
+                }
+            }
+        },
+        Sheet {
+            id: sheet
+            content: sheetPageDelegate.object
+            onOpenedChanged: {
+                if (opened)
+                    sheetPageDelegate.active = true;
+            }
+            onClosed: {
+                sheetPageDelegate.active = false;
+            }
+        }
+    ]
+    Container {
+        Button { 
+            text: "Open sheet"
+            onClicked: {
+                sheet.open();
+            }
+        }
+    }
+}

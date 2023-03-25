@@ -1,0 +1,19 @@
+import bb.cascades 1.4
+
+Page {
+    Container {
+        Button {
+    id: buttonID
+    text: "reset"
+    onClicked: {
+        text.resetText()
+    }
+}
+    TextField {
+        id: text
+        text: ""
+    }
+    
+    }
+
+}

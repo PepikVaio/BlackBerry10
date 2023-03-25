@@ -1,0 +1,132 @@
+import bb.cascades 1.4
+  
+Page {
+    Container {
+        id: root
+  
+        // The custom JavaScript function called convertTemp()
+        function convertTemp(fahr) {
+            fahr = parseInt(fahr);
+            return ((fahr - 32) * 5) / 9;
+        }
+              
+        Button {
+            text: "Convert"
+              
+            onClicked: {
+                tempOutput.text = 
+                    "" + root.convertTemp(tempInput.text);
+            }
+        }
+          
+        TextField {
+            id: tempInput
+            // Display a keyboard that's appropriate for typing
+            // temperatures
+            inputMode: TextFieldInputMode.NumbersAndPunctuation
+        }
+          
+        Label {
+            id: tempOutput
+            text: "0"
+  
+            // Use a text style to create text in a large font
+            textStyle {
+                base: SystemDefaults.TextStyles.BigText
+            }
+        } 
+    }
+}
+
+
+
+
+!!!!! NEBO !!!!! + java soubor
+
+import bb.cascades 1.2
+import "tempFunctions.js" as TemperatureFunctions
+  
+Page {
+    Container {        
+        Button {
+            text: "Convert"
+              
+            onClicked: {
+                // Call the convertTemp() function from the
+                // imported JavaScript file
+                tempOutput.text = "" +
+                    TemperatureFunctions.convertTemp(tempInput.text);
+            }
+        }
+          
+        TextField {
+            id: tempInput
+            preferredWidth: 150
+            preferredHeight: 100
+              
+            // Display a keyboard that's appropriate for typing
+            // temperatures
+            inputMode: TextFieldInputMode.NumbersAndPunctuation
+        }
+          
+        Label {
+            id: tempOutput
+            text: "0"
+              
+            // Use a text style to create text in a large font
+            textStyle {
+                base: SystemDefaults.TextStyles.BigText
+            }
+        } 
+    }
+}
+
+
+!!!!! JAVA soubor !!!!!
+
+        function convertTemp(fahr) {
+            fahr = parseInt(fahr);
+            return ((fahr - 32) * 5) / 9;
+        }
+
+
+
+
+
+
+
+!!!!! NEBO !!!!! jiné volání java
+
+Page {
+    Container {
+        id: root
+        
+        // The custom JavaScript function called changeText()
+        function changeText() {
+            if (myLabel.text == "First text string")
+                myLabel.text = "Second text string";
+            else
+                myLabel.text = "First text string";
+        }
+        
+        Button {
+            id: myButton
+            text: "Change"
+        }
+        
+        Label {
+            id: myLabel
+            text: "First text string"
+            textStyle {
+                base: SystemDefaults.TextStyles.BigText
+            }
+        }
+        
+        // When the container is created, connect the
+        // button's clicked() signal to the custom JavaScript
+        // function changeText()
+        onCreationCompleted: {
+            myButton.clicked.connect(root.changeText);
+        }
+    }
+}

@@ -1,0 +1,2 @@
+.toPrecision(4) - pocet cislic
+.toString(2) - pocet cisel za des. carkou

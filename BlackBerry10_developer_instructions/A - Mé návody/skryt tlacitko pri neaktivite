@@ -1,0 +1,37 @@
+import bb.cascades 1.4
+
+NavigationPane {
+    
+    Page {
+        
+        ScrollView {
+            id: youtube_scrollView
+            scrollViewProperties.scrollMode: ScrollMode.Both
+
+            WebView {
+                id: youtube_WebView
+                url: "http://tipyjakfotit.cz/"
+                
+                onUrlChanged: {
+                if (youtube_WebView.url == "http://tipyjakfotit.cz/") {
+                    home.enabled = false
+                } else {home.enabled = true}
+                }
+            }
+        }
+        
+        actions: [
+            
+            ActionItem {
+                id: home
+                title: qsTr("Home") + Retranslate.onLanguageChanged
+                ActionBar.placement: ActionBarPlacement.Signature
+                enabled: true
+                
+                onTriggered: {
+                }
+            }
+        ]
+    }
+}
+

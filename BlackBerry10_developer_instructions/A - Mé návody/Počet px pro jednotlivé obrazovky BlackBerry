@@ -1,0 +1,32 @@
+Počet px pro jednotlivé obrazovky BlackBerry
+
+// titlebar
+//        preferredHeight: 640 //Q10_Q5_Clasic - (titlebar = 80 px)
+//        preferredWidth: 720 //Q10_Q5_Clasic
+//        preferredHeight: 1308 // Passport - (titlebar = 132 px)
+//        preferredWidth: 1440 // Passport
+//        preferredHeight: 1192 // Z30_Z3 - (titlebar = 88 px)
+//        preferredWidth: 720 // Z30_Z3
+//        preferredHeight: 1192 // Z10 - (titlebar = 88 px)
+//        preferredWidth: 768 //Z10
+
+// actionbar
+//        preferredHeight: 624 //Q10_Q5_Clasic - (actionbar = 96 px)
+//        preferredWidth: 720 //Q10_Q5_Clasic
+//        preferredHeight: 1296 // Passport - (actionbar = 144 px)
+//        preferredWidth: 1440 // Passport
+//        preferredHeight: 1184 // Z30_Z3 - (actionbar = 96 px)
+//        preferredWidth: 720 // Z30_Z3
+//        preferredHeight: 1184 // Z10 - (actionbar = 96 px)
+//        preferredWidth: 768 //Z10
+
+// titlebar + actionbar
+//        preferredHeight: 544 //Q10_Q5_Clasic - (titlebar + actionbar = 176 px)
+//        preferredWidth: 720 //Q10_Q5_Clasic
+//        preferredHeight: 1164 // Passport - (titlebar + actionbar = 276 px)
+//        preferredWidth: 1440 // Passport
+//        preferredHeight: 1096 // Z30_Z3 - (titlebar + actionbar = 184 px)
+//        preferredWidth: 720 // Z30_Z3
+//        preferredHeight: 1096 // Z10 - (titlebar + actionbar = 184 px)
+//        preferredWidth: 768 //Z10
+
