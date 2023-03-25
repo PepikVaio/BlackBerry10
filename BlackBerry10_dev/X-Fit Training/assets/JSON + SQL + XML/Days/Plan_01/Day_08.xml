@@ -1,0 +1,55 @@
+<root>
+  <muscleparts title_en="Chest" title_cs="Prsa">
+	<exercise
+		id="FlatBarbellChestPress"
+		title_en="Pause Flat Barbell Chest Press"
+		difficulty_en="80% from max. weight"
+
+		title_cs="Benchpress s pauzou"
+		difficulty_cs="80% z maximální váhy" />
+	<exercise
+		id="InclineBarbellChestPress"
+		title_en="Incline Barbell Chest Press"
+		difficulty_en="Uniform weight"
+
+		title_cs="Bench press na šikmé lavici"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="FlatDumbbellChestPress"
+		title_en="Flat Dumbbell Chest Press"
+		difficulty_en="Uniform weight"
+
+		title_cs="Tlaky na rovné lavici"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="SeatedMachineChestPress"
+		title_en="Seated Machine Chest Press"
+		difficulty_en="Uniform weight"
+
+		title_cs="Tlaky na stroji" 
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+  <muscleparts title_en="Triceps" title_cs="Triceps">
+	<exercise
+		id="LyingBarbellTricepsExtensions"
+		title_en="Lying Barbell Triceps Extensions"
+		difficulty_en="Uniform weight"
+
+		title_cs="Skull crushers"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="SeatedTwoArmOverheadDumbbellTricepsExtensions"
+		title_en="Seated Two Arm Overhead Dumbbell Triceps Extensions"
+		difficulty_en="Uniform weight"
+
+		title_cs="Tlaky vsedě dvemi pažemi"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="CableTricepsRopePushdowns"
+		title_en="Cable Triceps Rope Pushdowns"
+		difficulty_en="Pyramid"
+
+		title_cs="Stahování horní kladky s lany"
+		difficulty_cs="Pyramida" />
+  </muscleparts>
+</root>

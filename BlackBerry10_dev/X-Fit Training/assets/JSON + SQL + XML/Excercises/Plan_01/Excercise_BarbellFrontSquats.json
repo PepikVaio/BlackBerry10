@@ -1,0 +1,74 @@
+{
+  "info": {
+    "alternative_exercises": {
+      "en": null,
+      "cs": null
+    },
+    "execution": {
+      "en": null,
+      "cs": null
+    },
+    "info": {
+      "en": null,
+      "cs": null
+    },
+    "mistakes": {
+      "en": null,
+      "cs": null
+    }
+  },
+  "weeks": {
+    "Week_01": {
+      "kind": {
+        "en": "60% from max. height",
+        "cs": "60% z maximální váhy"
+      },
+      "reps": "8-10",
+      "rest": "4 min.",
+      "sets": "5",
+      "week": {
+        "en": "Week 1",
+        "cs": "Týden 1"
+      }
+    },
+    "Week_04": {
+      "kind": {
+        "en": "Uniform weight",
+        "cs": "Jednotná váha"
+      },
+      "reps": "15",
+      "rest": "2 min.",
+      "sets": "3",
+      "week": {
+        "en": "Week 4",
+        "cs": "Týden 4"
+      }
+    },
+    "Week_05": {
+      "kind": {
+        "en": "Uniform weight",
+        "cs": "Jednotná váha"
+      },
+      "reps": "5",
+      "rest": "4 min.",
+      "sets": "4",
+      "week": {
+        "en": "Week 5",
+        "cs": "Týden 5"
+      }
+    },
+    "Week_07": {
+      "kind": {
+        "en": "60% from max. height",
+        "cs": "60% z maximální váhy"
+      },
+      "reps": "8-10",
+      "rest": "4 min.",
+      "sets": "5",
+      "week": {
+        "en": "Week 7",
+        "cs": "Týden 7"
+      }
+    }
+  }
+}

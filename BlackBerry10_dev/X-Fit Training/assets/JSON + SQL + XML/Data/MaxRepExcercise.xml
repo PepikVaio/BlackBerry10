@@ -1,0 +1,11 @@
+<excercises>
+	<excercise
+		title_en="Barbell BackSquats"
+		title_cs="Dřepy" />
+	<excercise
+		title_en="Barbell Deadlifts"
+		title_cs="Deadlifts" />
+	<excercise
+		title_en="Flat Barbell ChestPress"
+		title_cs="Benchpress" />
+</excercises>

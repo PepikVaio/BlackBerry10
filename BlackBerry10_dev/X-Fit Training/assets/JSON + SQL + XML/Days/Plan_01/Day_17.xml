@@ -1,0 +1,55 @@
+<root>
+  <muscleparts title_en="Back" title_cs="Záda">
+	<exercise
+		id="WeightWideGripOverhandChinUps"
+		title_en="Weight Wide Grip Overhand Chin Ups"
+		difficulty_en="Uniform weight"
+
+		title_cs="Shyby se závažím"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="WideOverhandGripLatPulldown"
+		title_en="Wide Overhand Grip Lat Pulldown"
+		difficulty_en="Uniform weight"
+
+		title_cs="Stahování horní kladky na široko"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="SeatedCableRow"
+		title_en="Seated Cable Row"
+		difficulty_en = "With peak contraction"
+
+		title_cs="Přítahy spodní kladky vsedě"
+		difficulty_cs="S vrcholovou kontrakcí" />
+	<exercise
+		id="StandingCableRearDeltRopePulls"
+		title_en="Standing Cable Rear Delt Rope Pulls"
+		difficulty_en = "With peak contraction"
+
+		title_cs="Face pulls"
+		difficulty_cs="S vrcholovou kontrakcí" />
+  </muscleparts>
+  <muscleparts title_en="Triceps" title_cs="Triceps">
+	<exercise
+		id="WeightTricepsDips"
+		title_en="Weight Triceps Dips"
+		difficulty_en="Uniform weight"
+
+		title_cs="Bradla se závažím"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="LyingBarbellTricepsExtensions"
+		title_en="Lying Barbell Triceps Extensions"
+		difficulty_en="Uniform weight"
+
+		title_cs="Skull crushers"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="CableTricepsRopePushdowns"
+		title_en="Cable Triceps Rope Pushdowns"
+		difficulty_en="Uniform weight"
+
+		title_cs="Stahování horní kladky s lany"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+</root>
