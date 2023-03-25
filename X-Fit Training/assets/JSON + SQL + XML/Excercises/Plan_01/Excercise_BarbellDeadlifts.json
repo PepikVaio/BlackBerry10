@@ -1,0 +1,190 @@
+{
+  "info": {
+    "alternative_exercises": {
+      "en": null,
+      "cs": null
+    },
+    "execution": {
+      "en": null,
+      "cs": null
+    },
+    "info": {
+      "en": null,
+      "cs": "Mrtvý tah je základním cvikem, který zatíží svaly téměř celého těla.Od trapézových svalů přes vzpřimovače páteře až po hamstringy.Provádí se zvednutím osy ze země z mírného podřepu do vzpřímené pozice.Základní postoj je cca 2 - 3 cm od osy, aby se tyč dotýkala vašich lýtek až po tom, co zaujmete pozici v podřepu.Páteř musí mít neutrální polohu.Častá chyba je, že se lidé hrbí nebo naopak prohýbají.Před každým opakováním mrtvého tahu je důležité provést hluboký nádech do břicha.Zpevníte střed těla a současně zaberete do svalů stehenních, sedacích i zádových.Rovnoměrný pohyb kloubů je opravdu důležitý.V konečné fázi mrtvého tahu máte propnuté nohy a napřímený trup.Nevydechujte všechen vzduch z plic, neboť byste snížili vnitrobřišní tlak, což by narušilo správnou oporu těla a páteře.Při odkládání činky je dobré snažit se techniku alespoň decentně hlídat i při pohybu dolů.Správně byste měli klesnout do původní pozice, odkud je možné začít další opakování."
+    },
+    "mistakes": {
+      "en": null,
+      "cs": null
+    }
+  },
+  "weeks": [
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "75% from max. weight",
+            "cs": "75% z maximální váhy"
+          },
+          "reps": "5",
+          "rest": "5 min.",
+          "sets": "5"
+        }
+      ],
+      "week": {
+        "en": "Week 1",
+        "cs": "Týden 1"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "80% from max. weight",
+            "cs": "80% z maximální váhy"
+          },
+          "reps": "4",
+          "rest": "5 min.",
+          "sets": "4"
+        }
+      ],
+      "week": {
+        "en": "Week 2",
+        "cs": "Týden 2"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "85% from max. weight",
+            "cs": "85% z maximální váhy"
+          },
+          "reps": "3",
+          "rest": "5 min.",
+          "sets": "3"
+        }
+      ],
+      "week": {
+        "en": "Week 3",
+        "cs": "Týden 3"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "90% from max. weight",
+            "cs": "90% z maximální váhy"
+          },
+          "reps": "2",
+          "rest": "5 min.",
+          "sets": "4"
+        }
+      ],
+      "week": {
+        "en": "Week 4",
+        "cs": "Týden 4"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "95% from max. weight",
+            "cs": "95% z maximální váhy"
+          },
+          "reps": "1",
+          "rest": "5 min.",
+          "sets": "5"
+        }
+      ],
+      "week": {
+        "en": "Week 5",
+        "cs": "Týden 5"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": null,
+            "cs": null
+          },
+          "reps": "null",
+          "rest": null,
+          "sets": "null"
+        }
+      ],
+      "week": {
+        "en": "Week 6",
+        "cs": "Týden 6"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "1 max. repeat",
+            "cs": "1 maximální opakování"
+          },
+          "reps": "1",
+          "rest": "5 min.",
+          "sets": "1"
+        }
+      ],
+      "week": {
+        "en": "Week 7",
+        "cs": "Týden 7"
+      }
+    },
+    {
+      "days": [
+        {
+          "day": {
+            "en": "Monday",
+            "cs": "Pondělí"
+          },
+          "kind": {
+            "en": "50% from max. weight",
+            "cs": "50% z maximální váhy"
+          },
+          "reps": "5",
+          "rest": "5 min.",
+          "sets": "5"
+        }
+      ],
+      "week": {
+        "en": "Week 8",
+        "cs": "Týden 8"
+      }
+    }
+  ]
+}

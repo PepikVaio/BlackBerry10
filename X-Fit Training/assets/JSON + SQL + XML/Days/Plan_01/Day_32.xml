@@ -1,0 +1,48 @@
+<root>
+  <muscleparts title_en="Chest" title_cs="Prsa">
+	<exercise
+		id="FlatDumbbellChestPress"
+		title_en="Flat Dumbbell Chest Press"
+		difficulty_en="Pyramid"
+
+		title_cs="Tlaky na rovné lavici"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="InclineDumbbellFly"
+		title_en="Incline Dumbbell Fly"
+		difficulty_en="Uniform weight"
+
+		title_cs="Rozpažování na šikmé lavici"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="FlatCableFly"
+		title_en="Flat Cable Fly"
+		difficulty_en = "With peak contraction"
+
+		title_cs="Rozpažování na kladkách"
+		difficulty_cs="S vrcholovou kontrakcí" />
+  </muscleparts>
+  <muscleparts title_en="Triceps" title_cs="Triceps">
+	<exercise
+		id="LyingDumbbellTricepsExtensions"
+		title_en="Lying Dumbbell Triceps Extensions"
+		difficulty_en="Pyramid"
+
+		title_cs="Tlaky v leže"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="SeatedTwoArmOverheadDumbbellTricepsExtensions"
+		title_en="Seated Two Arm Overhead Dumbbell Triceps Extensions"
+		difficulty_en="Uniform weight"
+
+		title_cs="Tlaky vsedě dvemi pažemi"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="CableTricepsRopePushdowns"
+		title_en="Cable Triceps Rope Pushdowns"
+		difficulty_en="Uniform weight"
+
+		title_cs="Stahování horní kladky s lany"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+</root>
