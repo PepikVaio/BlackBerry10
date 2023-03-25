@@ -1,0 +1,1 @@
+include (../clicker.pro)
