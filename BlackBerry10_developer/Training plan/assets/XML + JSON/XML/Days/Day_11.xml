@@ -1,0 +1,55 @@
+<root>
+  <muscleparts title_en="Back" title_cs="Záda">
+	<exercise
+		id="WideOverhandGripLatPulldown"
+		title_en="Wide Overhand Grip Lat Pulldown"
+		difficulty_en="Pyramid"
+
+		title_cs="Stahování horní kladky na široko"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="OneArmDumbbellRowOnBench"
+		title_en="One Arm Dumbbell Row On Bench"
+		difficulty_en="Uniform weight"
+
+		title_cs="Přítahy jednou rukou v předklonu"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="StandingCableBarLatPushdown"
+		title_en="Standing Cable Bar Lat Pushdown"
+		difficulty_en="Uniform weight"
+
+		title_cs="Pullover na kladce"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="StandingCableRearDeltRopePulls"
+		title_en="Standing Cable Rear Delt Rope Pulls"
+		difficulty_en = "With peak contraction"
+
+		title_cs="Face pulls"
+		difficulty_cs="S vrcholovou kontrakcí" />
+  </muscleparts>
+  <muscleparts title_en="Triceps" title_cs="Triceps">
+	<exercise
+		id="TricepsDips"
+		title_en="Triceps Dips"
+		difficulty_en = "No weights"
+
+		title_cs="Bradla"
+		difficulty_cs="Bez závaží" />
+	<exercise
+		id="FloorPress"
+		title_en="Floor Press"
+		difficulty_en = "Dynamic repeat"
+
+		title_cs="Floor press"
+		difficulty_cs="Dynamické opakování" />
+	<exercise
+		id="ReverseGripOneArmCableTricepsPushdowns"
+		title_en="Reverse Grip One Arm Cable Triceps Pushdowns"
+		difficulty_en="Uniform weight"
+
+		title_cs="Stahování horní kladky jednou rukou"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+</root>

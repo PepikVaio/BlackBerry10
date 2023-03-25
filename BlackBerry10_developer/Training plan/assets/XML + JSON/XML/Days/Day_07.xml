@@ -1,0 +1,62 @@
+<root>
+  <muscleparts title_en="Back" title_cs="Záda">
+	<exercise
+		id="BarbellDeadlifts"
+		title_en="Barbell Deadlifts"
+		difficulty_en="80% from max. weight"
+
+		title_cs="Deadlift"
+		difficulty_cs="80% z maximální vahy" />
+	<exercise
+		id="BarbellRackPulls"
+		title_en="Barbell Rack Pulls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Dotahy"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="WideGripOverhandChinUps"
+		title_en="Wide Grip Overhand Chin Ups"
+		difficulty_en=""
+
+		title_cs="Shyby"
+		difficulty_cs="" />
+	<exercise
+		id="SeatedCableRow"
+		title_en="Seated Cable Row"
+		difficulty_en="Pyramid"
+
+		title_cs="Přítahy spodní kladky vsedě"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="StandingCableRearDeltRopePulls"
+		title_en="Standing Cable Rear Delt Rope Pulls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Face pulls"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+  <muscleparts title_en="Biceps" title_cs="Biceps">
+	<exercise
+		id="LyingInclineBarbellBicepsCurl"
+		title_en="Lying Incline Barbell Biceps Curl"
+		difficulty_en="Pyramid"
+
+		title_cs="Velká osa na šikmé lavici"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="StandingAlternateDumbbellBicepsCurls"
+		title_en="Standing Alternate Dumbbell Biceps Curls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Zdvihy vestoje"
+		difficulty_cs="Jdnotná vaha" />
+	<exercise
+		id="StandingCableRopeHammerCurl"
+		title_en="Standing Cable Rope Hammer Curl"
+		difficulty_en="Uniform weight"
+
+		title_cs="Spodní kladka s lany"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+</root>

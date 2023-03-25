@@ -1,0 +1,62 @@
+<root>
+  <muscleparts title_en="Shoulders" title_cs="Ramena">
+	<exercise
+		id="StandingBarbellPushPress"
+		title_en="Standing Barbell Push Press"
+		difficulty_en="75% from max. weight"
+
+		title_cs="Push press"
+		difficulty_cs="75% z maximální váhy" />
+	<exercise 
+		id="SeatedDumbbellShoulderPress"
+		title_en="Seated Dumbbell Shoulder Press"
+		difficulty_en="Pyramid"
+
+		title_cs="Tlaky vsedě"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="StandingDumbbellLateralRaises"
+		title_en="Standing Dumbbell Lateral Raises"
+		difficulty_en="Pyramid"
+
+		title_cs="Upažování vestoje"
+		difficulty_cs="Pyramida" />
+	<exercise 
+		id="StandingGobletFrontRaises"
+		title_en="Standing Goblet Front Raises"
+		difficulty_en="Uniform weight"
+
+		title_cs="Předpažování kettlbellem"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="StandingCableRearDeltFly"
+		title_en="Standing Cable Rear Delt Fly"
+		difficulty_en = "With peak contraction"
+
+		title_cs="Upažování na kladkách"
+		difficulty_cs="S vrcholovou kontrakcí" />
+  </muscleparts>
+  <muscleparts title_en="Biceps" title_cs="Biceps">
+	<exercise
+		id="WideGripStandingBarbellBicepsCurl"
+		title_en="Wide-Grip Standing Barbell Biceps Curl"
+		difficulty_en = "Slow negative phase"
+
+		title_cs="Velká osa vestoje"
+		difficulty_cs="Pomalá negativní fáze" />
+	<exercise
+		id="SeatedInclineDumbbellBicepsCurl"
+		title_en="Seated Incline Dumbbell Biceps Curl"
+		difficulty_en="Uniform weight"
+
+		title_cs="Zdvihy na šikmé lavici"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="StandingBicepsCableCurl"
+		title_en="Standing Biceps Cable Curl"
+		difficulty_en = "To failure"
+
+		title_cs="Spodní kladka"
+		difficulty_cs="Do selhání" />
+  </muscleparts>
+</root>
