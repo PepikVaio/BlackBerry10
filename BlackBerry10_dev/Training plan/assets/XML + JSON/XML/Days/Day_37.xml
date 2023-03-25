@@ -1,0 +1,62 @@
+<root>
+  <muscleparts title_en="Back" title_cs="Záda">
+	<exercise
+		id="BarbellDeadlifts"
+		title_en="Barbell Deadlifts"
+		difficulty_en="1 max. repetition"
+
+		title_cs="Deadlift"
+		difficulty_cs="1 maximální opakování" />
+	<exercise
+		id="TBarRows"
+		title_en="T-Bar Rows"
+		difficulty_en="Uniform weight"
+
+		title_cs="Přítahy v předklonu"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="WideOverhandGripLatPulldown"
+		title_en="Wide Overhand Grip Lat Pulldown"
+		difficulty_en="Pyramid"
+
+		title_cs="Stahování horní kladky na široko"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="NarrowUnderhandGripLatPulldown"
+		title_en="Narrow Underhand Grip Lat Pulldown"
+		difficulty_en="Uniform weight"
+
+		title_cs="Stahování horní kladky na úzko"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="StandingCableRearDeltRopePulls"
+		title_en="Standing Cable Rear Delt Rope Pulls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Face pulls"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+  <muscleparts title_en="Biceps" title_cs="Biceps">
+	<exercise
+		id="StandingAlternateDumbbellBicepsCurls"
+		title_en="Standing Alternate Dumbbell Biceps Curls"
+		difficulty_en="Pyramid"
+
+		title_cs="Zdvihy vestoje"
+		difficulty_cs="Pyramida" />
+	<exercise
+		id="BicepsCurlMachine"
+		title_en="Biceps Curl Machine"
+		difficulty_en="Uniform weight"
+
+		title_cs="Scottova lavice"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="SeatedDumbbellBicepsHammerCurls"
+		title_en="Standing Alternate Dumbbell Biceps Hammer Curls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Kladivové zdvihy vsedě"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+</root>
