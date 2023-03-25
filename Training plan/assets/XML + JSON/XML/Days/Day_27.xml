@@ -1,0 +1,55 @@
+<root>
+  <muscleparts title_en="Legs" title_cs="Nohy">
+	<exercise
+		id="LegExtensions"
+		title_en="Leg Extensions"
+		difficulty_en="Uniform weight"
+
+		title_cs="Předkopávání"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="LyingHamstringCurls"
+		title_en="Lying Hamstring Curls"
+		difficulty_en="Uniform weight"
+
+		title_cs="Zakopávání"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="BarbellFrontSquats"
+		title_en="Barbell Front Squats"
+		difficulty_en="Uniform weight"
+
+		title_cs="Čelní dřepy"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="DumbbellLungess"
+		title_en="Dumbbell Lungess"
+		difficulty_en="Uniform weight"
+
+		title_cs="Výpady"
+		difficulty_cs="Jednotná váha" />
+	<exercise
+		id="BarbellStiffLegDeadlifts"
+		title_en="Barbell Stiff Leg Deadlifts"
+		difficulty_en="Uniform weight"
+
+		title_cs="Rumunský mrtvý tah"
+		difficulty_cs="Jednotná váha" />
+  </muscleparts>
+  <muscleparts title_en="Calves" title_cs="Lýtka">
+	<exercise
+		id="StandingCalfRaisesMachine"
+		title_en="Standing Calf Raises Machine"
+		difficulty_en = "No weights"
+
+		title_cs="Vpony vestoje"
+		difficulty_cs="Bez závaží" />
+	<exercise
+		id="SeatedBarbellCalfRaises"
+		title_en="Seated Barbell Calf Raises"
+		difficulty_en = "Heavier weight"
+
+		title_cs="Výpony vsedě"
+		difficulty_cs="Těžší váha" />
+  </muscleparts>
+</root>
