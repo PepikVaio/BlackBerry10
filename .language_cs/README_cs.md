@@ -33,3 +33,4 @@ Wajsar Josef
 ## Poděkování
 Inspirace, úryvky kódu atd...
 * [readme - vícejazyčné](https://github.com/jonatasemidio/multilanguage-readme-pattern)
+* [readme - ikony](https://shields.io/)

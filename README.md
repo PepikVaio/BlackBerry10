@@ -33,3 +33,4 @@ Wajsar Josef
 ## Acknowledgements
 Inspiration, code snippets, etc...
 * [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern)
+* [readme - icons](https://shields.io/)
