@@ -23,6 +23,8 @@ Some apps are complete and can be uploaded to the device, some are just pictures
 ## Help
 Create issues if you find a problem.
 
+[![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtube.com/playlist?list=PL_EByhPygE7IYw3xXhwv28YiNGA3qIGTG&si=0RwhV2GnDMC2NAAg)
+
 
 ## Authors
 Wajsar Josef

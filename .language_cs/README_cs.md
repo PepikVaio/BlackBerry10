@@ -23,7 +23,7 @@ Některé aplikace jsou kompletní a dají se nahrát do zařízení, některé 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
 
-[![YouTube](https://youtube.com/playlist?list=PL_EByhPygE7IYw3xXhwv28YiNGA3qIGTG&si=T8ahHwe0lQupMDmE)
+[![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtube.com/playlist?list=PL_EByhPygE7IYw3xXhwv28YiNGA3qIGTG&si=0RwhV2GnDMC2NAAg)
 
 
 ## Autoři
