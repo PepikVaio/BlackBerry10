@@ -5,32 +5,32 @@
 
 
 # BlackBerry 10!
-Code snippets for the best operating system ever.
-* I don't update anymore, but I don't put it in the archive so that it is possible to create an issue and discuss it.
+Úryvky kódů pro nejlepší operační systém všech dob.
+* Již neaktualizuji ale nedávám do archívu, aby bylo možné vytvořit problém a diskutovat o něm.
 
-## Description
-Some apps are complete and can be uploaded to the device, some are just pictures of what the app looked like or how I intended to make it.
-* tested - BlackBerry Passport
-* tested - BlackBerry Classic
+## Popis
+Některé aplikace jsou kompletní a dají se nahrát do zařízení, některé jsou již pouze obrázky, jak aplikace vypadala, nebo jak jsem ji zamýšlel vytvořit.
+* testováno - BlackBerry Passport
+* testováno - BlackBerry Classic
 
-## Getting Started
+## Začínáme
 
-### Addictions
-* any BlackBerry device with BlackBerry 10 OS
+### Závislosti
+* jakékoliv BlackBerry zařízení s OS BlackBerry 10
 * [Momentics IDE](https://www.google.com/search?q=Momentics+IDE+for+BlackBerry+10&sca_esv=4ce04de13f7e18f6&sca_upv=1&sxsrf=ADLYWIJHg7PlnIN7xy2fZ-s32PUfyQTFfA%3A1717774906174&ei=OipjZv-jCvKKi-gPjYjfoAs&udm=&ved=0ahUKEwj_qNiY6smGAxVyxQIHHQ3EF7QQ4dUDCBE&uact=5&oq=Momentics+IDE+for+BlackBerry+10&gs_lp=Egxnd3Mtd2l6LXNlcnAiH01vbWVudGljcyBJREUgZm9yIEJsYWNrQmVycnkgMTAyBRAhGKABMgUQIRigAUi5CFCuBFizBnABeAGQAQCYAWmgAe0BqgEDMi4xuAEDyAEA-AEBmAIEoAL8AcICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABiABBiiBJgDAIgGAZAGCJIHAzMuMaAH5AU&sclient=gws-wiz-serp)
 
 
-## Help
-Create issues if you find a problem.
+## Pomoc
+Vytvořte problémy, pokud najdete problém.
 
 [![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtube.com/playlist?list=PL_EByhPygE7IYw3xXhwv28YiNGA3qIGTG&si=0RwhV2GnDMC2NAAg)
 
 
-## Authors
+## Autoři
 Wajsar Josef
 * Wajsar.Josef@hotmail.com
 
-## Acknowledgements
-Inspiration, code snippets, etc...
-* [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern)
-* [readme - icons](https://shields.io/)
+## Poděkování
+Inspirace, úryvky kódu atd...
+* [readme - vícejazyčné](https://github.com/jonatasemidio/multilanguage-readme-pattern)
+* [readme - ikony](https://shields.io/)
