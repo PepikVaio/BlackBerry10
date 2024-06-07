@@ -1,0 +1,36 @@
+{
+  "result": {
+    "date_of_publication": "23.11.2019",
+    "description": "web app",
+    "developer": "Wajsar Josef",
+    "download_path": "",
+    "download_size": "91.0 kb",
+    "features": "Now you can keep up with your friends faster than ever. See what your friends are doing. Share updates, photos, and videos. Play games and use your favorite apps. Buy and sell locally via Facebook Marketplace. Facebook is only available to users over the age of 13.",
+    "features_cz": "Sledujte co dělají vaši přatelé. Facebook je dostupný pouze pro starší 13 let.",
+    "github_path": "",
+    "icon_path": "https://i.postimg.cc/ZqPBL7kL/icon-300x300.png",
+    "images": [
+      {"images_path": "https://i.postimg.cc/3rzGYDZm/screen-01.png"},
+      {"images_path": "https://i.postimg.cc/bNbtJN6M/screen-02.png"},
+      {"images_path": "https://i.postimg.cc/SxfY61bf/screen-03.png"},
+      {"images_path": "https://i.postimg.cc/RZBnn5y0/screen-04.png"}
+    ],
+    "overview": "Mini for Facebook application displays the 'https://m.instagram.com' website in the native BlackBerry browser.",
+    "overview_cz": "Aplikace Mini for Facebook zobrazuje internetovou stránku 'https://m.instagram.com' v nativním prohlížeči BlackBerry.",
+    "title": "Mini for Facebook",
+    "url_path": "http://blackworld.zombeek.cz/",
+    "version": "1.0.0.1"
+  },
+  "reviews": [
+    {
+      "name": "John",
+      "review": "This app is amzaing and beautiful. I get 5 stars. When I would can, I will give 10 stars :)",
+      "stars": "5"
+    },
+    {
+      "name": "Anna",
+      "review": "I like this app, but is not finished still.",
+      "stars": "3"
+    }
+  ]
+}

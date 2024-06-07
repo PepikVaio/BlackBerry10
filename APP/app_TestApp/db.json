@@ -1,0 +1,29 @@
+{
+  "result": {
+    "version": "1.0.0.1",
+    "download_size": "91.0 kb",
+    "date_of_publication": "23.11.2019",
+    "description": "native app",
+    "title": "Test.. APP",
+    "overview": "This app was make for testing webpages",
+    "overview_cz": "Tato aplikace byla vytvorena pro testovani zobrazeni ruznych stranek v nativnim prohlizeci BlackBerry.",
+    "icon_path": "https://i.postimg.cc/pL5JDNwK/icon-300x300.png",
+    "images": [
+      {"images_path": ""}
+    ],
+    "features": "Now you can keep up with your friends faster than ever. See what your friends are doing. Share updates, photos, and videos. Play games and use your favorite apps. Buy and sell locally via Facebook Marketplace. Facebook is only available to users over the age of 13.",
+    "features_cz": "Sledujte co dělají vaši přatelé. Facebook je dostupný pouze pro starší 13 let."
+  },
+  "reviews": [
+    {
+      "name": "John",
+      "stars": "5",
+      "review": "This app is amzaing and beautiful. I get 5 stars. When I would can, I will give 10 stars :)"
+    },
+    {
+      "name": "Anna",
+      "stars": "3",
+      "review": "I like this app, but is not finished still."
+    }
+  ]
+}
