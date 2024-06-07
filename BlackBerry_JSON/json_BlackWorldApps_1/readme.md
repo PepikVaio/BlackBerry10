@@ -7,8 +7,6 @@ http://my-json-server.typicode.com/pepikvaio/json_blackworldapps_1/db
 
 http://my-json-server.typicode.com/pepikvaio/BlackBerry10/db
 
-http://my-json-server.typicode.com/pepikvaio/BlackBerry10/test
-
 
 
 
