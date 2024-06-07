@@ -1,5 +1,5 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/BlackBerry10?tab=readme-ov-file)
-[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/BlackBerry10/blob/main/.language_cs/README_cs.md)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/BlackBerry10/blob/main/.git/.language_cs/README_cs.md)
 [![supported](https://img.shields.io/badge/OS-BlackBerry10-blueviolet.svg)](https://www.google.com/search?q=BlackBerry+10&sca_esv=b5763fd449dd55fb&sca_upv=1&sxsrf=ADLYWIIC6gJHAsMzwJik3thGPLtPeBZwiA%3A1717775763335&ei=ky1jZquHFLeL9u8P7piluAw&udm=&ved=0ahUKEwjrnLWx7cmGAxW3hf0HHW5MCccQ4dUDCBE&oq=BlackBerry10&gs_lp=Egxnd3Mtd2l6LXNlcnAiDEJsYWNrQmVycnkxMEgAUABYAHAAeAGQAQCYAQCgAQCqAQC4AQzIAQCYAgCgAgCYAwDiAwUSATEgQJIHAKAHAA&sclient=gws-wiz-serp)
 
 
