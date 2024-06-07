@@ -1,41 +1,27 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Diacritics_CS?tab=readme-ov-file)
-[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Diacritics_CS/blob/main/.language_cs/README_cs.md)
-[![supported: iPad](https://img.shields.io/badge/iPhone-supported-blueviolet)](https://www.apple.com/cz/iphone/)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/BlackBerry10?tab=readme-ov-file)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/BlackBerry10/blob/main/.language_cs/README_cs.md)
+[![supported: BlackBerry 10 OS](https://img.shields.io/badge/iPhone-supported-blueviolet)](https://www.google.com/search?q=blackberry10&oq=blackberry10&aqs=chrome..69i57j0i13i512l4j69i60l3.3014j0j9&sourceid=chrome&ie=UTF-8)
 
 
 
-# Diacritics CS!
-Adding diacritics to the text.
+# BlackBerry 10!
+Code snippets for the best operating system ever.
+* I don't update anymore, but I don't put it in the archive so that it is possible to create an issue and discuss it.
 
 ## Description
-The shortcut is used to add diacritics to the text that is stored in the clipboard.
-* As soon as the diacritics are completed, the new text is saved to the clipboard. 
-* tested - iPhone
+Some apps are complete and can be uploaded to the device, some are just pictures of what the app looked like or how I intended to make it.
+* tested - BlackBerry Passport
+* tested - BlackBerry Classic
 
 ## Getting Started
 
 ### Addictions
-* iPhone
-* [ChatGPT application](https://apps.apple.com/cz/app/chatgpt/id6448311069?l=cs)
+* any BlackBerry device with BlackBerry 10 OS
+* [Momentics IDE](https://www.google.com/search?q=Momentics+IDE+for+BlackBerry+10&sca_esv=4ce04de13f7e18f6&sca_upv=1&sxsrf=ADLYWIJHg7PlnIN7xy2fZ-s32PUfyQTFfA%3A1717774906174&ei=OipjZv-jCvKKi-gPjYjfoAs&udm=&ved=0ahUKEwj_qNiY6smGAxVyxQIHHQ3EF7QQ4dUDCBE&uact=5&oq=Momentics+IDE+for+BlackBerry+10&gs_lp=Egxnd3Mtd2l6LXNlcnAiH01vbWVudGljcyBJREUgZm9yIEJsYWNrQmVycnkgMTAyBRAhGKABMgUQIRigAUi5CFCuBFizBnABeAGQAQCYAWmgAe0BqgEDMi4xuAEDyAEA-AEBmAIEoAL8AcICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABiABBiiBJgDAIgGAZAGCJIHAzMuMaAH5AU&sclient=gws-wiz-serp)
 
-
-### Downloads
-[![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/2e116bb08d784f7294902185d24dde47)
-
-### Installation
-Just open the link on your iPhone.
-
-### Usage
-Ideally, set a shortcut for tapping the back of the iPhone.
-
-[![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtu.be/11kzIVPvCu0?si=rPG1BSNr1YD6hQeM)
 
 ## Help
 Create issues if you find a problem.
-
-## Version history
-2024
-* first edition
 
 
 ## Authors
@@ -45,4 +31,3 @@ Wajsar Josef
 ## Acknowledgements
 Inspiration, code snippets, etc...
 * [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern)
-* [readme - icons](https://www.etsy.com/?ref=lgo)

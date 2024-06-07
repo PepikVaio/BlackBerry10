@@ -1,42 +1,29 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Diacritics_CS/tree/main)
-[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Diacritics_CS/blob/main/.language_cs/README_cs.md)
-[![supported: iPad](https://img.shields.io/badge/iPhone-supported-blueviolet)](https://www.apple.com/cz/iphone/)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/BlackBerry10?tab=readme-ov-file)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/BlackBerry10/blob/main/.language_cs/README_cs.md)
+[![supported: BlackBerry 10 OS](https://img.shields.io/badge/iPhone-supported-blueviolet)](https://www.google.com/search?q=blackberry10&oq=blackberry10&aqs=chrome..69i57j0i13i512l4j69i60l3.3014j0j9&sourceid=chrome&ie=UTF-8)
 
 
 
-# Diacritics CS!
-Doplnění diakritiky do textu.
+# BlackBerry 10!
+Úryvky kódů pro nejlepší operační systém všech dob.
+* Již neaktualizuji ale nedávám do archívu, aby bylo možné vytvořit problém a diskutovat o něm.
 
 ## Popis
-Zkratka slouží k doplnění diakritiky do textu, který je uložený ve schránce.
-* Jakmile se diakritika doplní, uloží se nový text do schránky. 
-* testováno - iPhone
+Některé aplikace jsou kompletní a dají se nahrát do zařízení, některé jsou již pouze obrázky, jak aplikace vypadala, nebo jak jsem ji zamýšlel vytvořit.
+* testováno - BlackBerry Passport
+* testováno - BlackBerry Classic
 
 ## Začínáme
 
 ### Závislosti
-* iPhone
-* [aplikace ChatGPT](https://apps.apple.com/cz/app/chatgpt/id6448311069?l=cs)
-
-
-### Ke stažení
-[![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/2e116bb08d784f7294902185d24dde47)
-
-### Instalace
-Stačí otevřít odkaz v iPhone.
-
-### Používání
-Ideálně si nastavit si zkratku na poklepání zad iPhone.
+* jakékoliv BlackBerry zařízení s OS BlackBerry 10
+* [Momentics IDE](https://www.google.com/search?q=Momentics+IDE+for+BlackBerry+10&sca_esv=4ce04de13f7e18f6&sca_upv=1&sxsrf=ADLYWIJHg7PlnIN7xy2fZ-s32PUfyQTFfA%3A1717774906174&ei=OipjZv-jCvKKi-gPjYjfoAs&udm=&ved=0ahUKEwj_qNiY6smGAxVyxQIHHQ3EF7QQ4dUDCBE&uact=5&oq=Momentics+IDE+for+BlackBerry+10&gs_lp=Egxnd3Mtd2l6LXNlcnAiH01vbWVudGljcyBJREUgZm9yIEJsYWNrQmVycnkgMTAyBRAhGKABMgUQIRigAUi5CFCuBFizBnABeAGQAQCYAWmgAe0BqgEDMi4xuAEDyAEA-AEBmAIEoAL8AcICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABiABBiiBJgDAIgGAZAGCJIHAzMuMaAH5AU&sclient=gws-wiz-serp)
 
 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
 
-[![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtu.be/11kzIVPvCu0?si=rPG1BSNr1YD6hQeM)
-
-## Historie verzí
-2024
-* první vydání
+[![YouTube](https://youtube.com/playlist?list=PL_EByhPygE7IYw3xXhwv28YiNGA3qIGTG&si=T8ahHwe0lQupMDmE)
 
 
 ## Autoři
@@ -46,4 +33,3 @@ Wajsar Josef
 ## Poděkování
 Inspirace, úryvky kódu atd...
 * [readme - vícejazyčné](https://github.com/jonatasemidio/multilanguage-readme-pattern)
-* [readme - ikony](https://www.etsy.com/?ref=lgo)
