@@ -1,6 +1,6 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/BlackBerry10?tab=readme-ov-file)
 [![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/BlackBerry10/blob/main/.language_cs/README_cs.md)
-[![supported: BlackBerry 10 OS](https://img.shields.io/badge/BlackBerry-10-OS-blueviolet)](https://www.google.com/search?q=blackberry10&oq=blackberry10&aqs=chrome..69i57j0i13i512l4j69i60l3.3014j0j9&sourceid=chrome&ie=UTF-8)
+[![supported](https://img.shields.io/badge/BlackBerry-10-OS-blueviolet)](https://www.google.com/search?q=blackberry10&oq=blackberry10&aqs=chrome..69i57j0i13i512l4j69i60l3.3014j0j9&sourceid=chrome&ie=UTF-8)
 
 
 
