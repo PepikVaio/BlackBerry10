@@ -1,0 +1,36 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "version": "1.0.0.1",
+      "description": "web",
+      "title": "Mini for YouTube 3",
+      "overview": "App displays the website m.youtube.com in the native BlackBerry browser.",
+      "icon_path": "K8S8sPDp",
+      "url_path": "app_m.youtube"
+    },
+    {
+      "id": 2,
+      "version": "1.2.0.4",
+      "description": "web",
+      "title": "Mini for Facebook 3",
+      "overview": "App displays the website touch.facebook.com in native blackberry browser.",
+      "icon_path": "ZqPBL7kL",
+      "url_path": "app_m.facebook"
+    },
+    {
+      "id": 3,
+      "version": "1.0.2.3",
+      "description": "web",
+      "title": "Mini for Instagram 3",
+      "overview": "App displays the website instagram.com in native blackberry browser.",
+      "icon_path": "zfN33CLH",
+      "url_path": "app_m.instagram"
+    }
+  ],
+      "next": [
+    {
+      "url_path": ""
+    }
+  ]
+}

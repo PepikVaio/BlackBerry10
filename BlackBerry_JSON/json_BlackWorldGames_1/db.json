@@ -1,0 +1,19 @@
+{
+  "games": [
+    {
+      "description": "n/a",
+      "download_path": "",
+      "icon_path": "",
+      "id": 1,
+      "overview": "n/a",
+      "title": "n/a",
+      "url_path": "",
+      "version": "n/a"
+    }
+  ],
+    "next": [
+    {
+      "url_path": ""
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "apps": [
+    {
+      "description": "web",
+      "download_path": "",
+      "icon_path": "K8S8sPDp",
+      "id": 1,
+      "overview": "App displays the website m.youtube.com in the native BlackBerry browser.",
+      "title": "Mini for YouTube",
+      "url_path": "app_m.youtube",
+      "version": "1.0.0.1"
+    },
+    {
+      "description": "web",
+      "download_path": "",
+      "icon_path": "ZqPBL7kL",
+      "id": 2,
+      "overview": "App displays the website touch.facebook.com in native blackberry browser.",
+      "title": "Mini for Facebook",
+      "url_path": "app_m.facebook",
+      "version": "1.2.0.4"
+    },
+    {
+      "description": "web",
+      "download_path": "",
+      "icon_path": "zfN33CLH",
+      "id": 3,
+      "overview": "App displays the website instagram.com in native blackberry browser.",
+      "title": "Mini for Instagram",
+      "url_path": "app_m.instagram",
+      "version": "1.0.2.3"
+    },
+    {
+      "description": "android",
+      "download_path": "",
+      "icon_path": "J7D1PjNP",
+      "id": 4,
+      "overview": "S jízdními řády od Seznamu můžete snadno naplánovat cestu autobusem, MHD nebo vyhledat vlakové spojení.",
+      "title": "Jizdní řády",
+      "url_path": "apk_jizdnirady",
+      "version": "5.17.1.1"
+    },
+    {
+      "description": "android",
+      "download_path": "",
+      "icon_path": "LXzMF3xp",
+      "id": 5,
+      "overview": "Aplikace pro posílání zpráv, která efektivně využívá data a umožní vám rychle se spojit s lidmi ve vašem životě.",
+      "title": "Messenger Lite",
+      "url_path": "apk_messengerlite",
+      "version": "1.2.0.4"
+    },
+    {
+      "description": "android",
+      "download_path": "",
+      "icon_path": "gk143bYg",
+      "id": 6,
+      "overview": "WhatsApp od Facebooku.",
+      "title": "WhatsApp Messenger",
+      "url_path": "apk_whatsappmessenger",
+      "version": "2.20.123"
+    },
+    {
+      "description": "native",
+      "download_path": "",
+      "icon_path": "pL5JDNwK",
+      "id": 7,
+      "overview": "App was creating for testing webpages.",
+      "title": "Test.. APP",
+      "url_path": "app_testapp",
+      "version": "0.0.0.1"
+    }
+  ],
+    "next": [
+    {
+      "url_path": "http://my-json-server.typicode.com/pepikvaio/json_blackworldapps_2/db"
+    }
+  ]
+}

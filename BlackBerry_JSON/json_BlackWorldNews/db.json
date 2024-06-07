@@ -1,0 +1,203 @@
+{
+  "news": [
+    {
+      "date": "2020-05-17",
+      "description": "native app",
+      "download_path": "",
+      "icon_path": "VL5tcWMY",
+      "id": 1,
+      "overview": "A new store for your apps for BlackBerry devices.",
+      "title": "BlackWorld",
+      "url_path": "app_blackworld",
+      "version": "1.0.0.1"
+    },
+    {
+      "date": "2019-05-10",
+      "description": "web app",
+      "download_path": "",
+      "icon_path": "K8S8sPDp",
+      "id": 2,
+      "overview": "App displays the website m.youtube.com in the native BlackBerry browser.",
+      "title": "Mini for YouTube",
+      "url_path": "app_m.youtube",
+      "version": "1.0.0.1"
+    },
+    {
+      "date": "2020-05-09",
+      "description": "web app",
+      "download_path": "",
+      "icon_path": "ZqPBL7kL",
+      "id": 3,
+      "overview": "App displays the website touch.facebook.com in the native BlackBerry browser.",
+      "title": "Mini for Facebook",
+      "url_path": "app_m.facebook",
+      "version": "1.2.0.4"
+    },
+    {
+      "date": "2020-03-17",
+      "description": "web app",
+      "download_path": "",
+      "icon_path": "zfN33CLH",
+      "id": 4,
+      "overview": "App displays the website instagram.com in the native BlackBerry browser.",
+      "title": "Mini for Instagram",
+      "url_path": "app_m.instagram",
+      "version": "1.0.2.3"
+    },
+    {
+      "date": "2020-01-17",
+      "description": "native app",
+      "download_path": "",
+      "icon_path": "pL5JDNwK",
+      "id": 5,
+      "overview": "App was creating for testing webpages.",
+      "title": "Test.. APP",
+      "url_path": "app_testapp",
+      "version": "0.0.0.1"
+    }
+  ],
+  "upcoming": [
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 1,
+      "overview": "App displays the website bazos.cz in the native BlackBerry browser.",
+      "title": "Mini for Bazoš",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 2,
+      "overview": "App displays the website kinohled.cz in the native BlackBerry browser.",
+      "title": "Mini for Kinohled",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 3,
+      "overview": "App displays the website wikipedia.org in the native BlackBerry browser.",
+      "title": "Mini for Wikipedia",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 4,
+      "overview": "App displays the website amazon.com in the native BlackBerry browser.",
+      "title": "Mini for Amazon (maybe)",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 5,
+      "overview": "App displays the website m.yelp.com in the native BlackBerry browser.",
+      "title": "Mini for Yelp (maybe)",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 6,
+      "overview": "App displays the website m.imdb.com in the native BlackBerry browser.",
+      "title": "Mini for Imdb",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 7,
+      "overview": "App displays the website alliexpress.com in the native BlackBerry browser.",
+      "title": "Mini for AlliExpress",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 8,
+      "overview": "App displays the website pinterest.com in the native BlackBerry browser.",
+      "title": "Mini for Pinterest",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 9,
+      "overview": "App displays the website alliexpress.com in the native BlackBerry browser.",
+      "title": "Mini for AlliExpress",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 10,
+      "overview": "App displays the website booking.com in the native BlackBerry browser.",
+      "title": "Mini for Booking",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "web app",
+      "icon_path": "dtS87xvk",
+      "id": 11,
+      "overview": "App displays the website m.cd.cz in the native BlackBerry browser.",
+      "title": "Mini for CD",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 0%",
+      "description": "native app",
+      "icon_path": "dtS87xvk",
+      "id": 12,
+      "overview": "App will be remember and write cleane your tooths",
+      "title": "Shining smile",
+      "url_path": "",
+      "vote": ""
+    },
+    {
+      "completed": "Completed: 50%",
+      "description": "native app",
+      "icon_path": "dtS87xvk",
+      "id": 13,
+      "overview": "App for search movies, tv shows and peoples.",
+      "title": "TMDB",
+      "url_path": "",
+      "vote": ""
+    }
+  ],
+  "beta": [
+    {
+      "description": "n/a",
+      "download_path": "",
+      "icon_path": "",
+      "id": 1,
+      "overview": "n/a",
+      "title": "n/a",
+      "url_path": "",
+      "version": "n/a"
+    }
+  ]
+}
